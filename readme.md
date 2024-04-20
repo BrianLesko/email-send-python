@@ -17,10 +17,10 @@ This code uses only native python libraries
 &nbsp;
 
 ## Usage
-0. pull the code into a directory (folder)
-git pull 
+1. pull the code into a directory (folder)
+git pull https://github.com/BrianLesko/email-send-python/blob/main/app.py
 
-1. create a secrets.py file that contains your sender email, app password, and recipient email
+2. create a secrets.py file that contains your sender email, app password, and recipient email
 
 secrets.py example:
 ```
@@ -28,7 +28,7 @@ SENDER_EMAIL = "sender@mail.com"
 SENDER_PASSWORD = "jgjgj jhgjgh ghgjd"
 RECIPIENT_EMAIL = "receiver@mail.com"
 ```
-2. run the python program
+3. run the python program
 ```
 python app.py
 ```

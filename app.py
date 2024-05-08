@@ -22,3 +22,5 @@ server = smtplib.SMTP_SSL('smtp.gmail.com', 465) # use SSL for security
 server.login(SENDER_EMAIL, SENDER_PASSWORD)
 server.send_message(msg)
 server.quit()
+
+
